@@ -322,26 +322,20 @@ button.order {
   width: 270px;
 }
 
-/* --------------------icons---features------------------------ */
+/* --------------------icon-box------------------------ */
 .icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--bcg-second-section-color);
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.icon-box.antenna {
-  padding: 25px 102.34px;
-}
-
-.icon-box.clock {
-  padding: 25px 101.54px;
-}
-
-.icon-box.diagram {
-  padding: 33.2px 100px;
-}
-
+.icon-box.antenna,
+.icon-box.clock,
+.icon-box.diagram,
 .icon-box.astronaut {
-  padding: 25px 100px;
+  height: 120px;
 }
 
 /* .list-item::before {
@@ -792,3 +786,5 @@ footer {
 .icon-item:not(:last-child) {
   margin-right: 30px;
 }
+
+/* -------test------- */
